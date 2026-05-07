@@ -372,7 +372,7 @@ Nghiên cứu này đề xuất mô hình **Hybrid Mamba-CNN** với các địn
 *   **Đột phá về hiệu năng tính toán**: Khác với các kiến trúc Transformer truyền thống gặp hiện tượng nghẽn bộ nhớ do độ phức tạp $O(L^2)$, mô hình đề xuất sử dụng cơ chế quét chọn lọc (**Selective Scan**) của Mamba để đạt được độ phức tạp tuyến tính $O(L)$. Cải tiến này cho phép xử lý dữ liệu cảm biến tần suất cao với tốc độ suy luận nhanh hơn và tiết kiệm tài nguyên GPU hơn đáng kể so với các baseline hiện nay.
 *   **Cân bằng giữa độ chính xác và tính ứng dụng**: Nghiên cứu hướng tới việc phá vỡ sự đánh đổi giữa hiệu suất dự báo và chi phí tài nguyên. Bằng cách kết hợp CNN và Mamba, mô hình không chỉ đạt được độ chính xác **SOTA (State-of-the-Art)** trong dự đoán RUL mà còn mở ra khả năng triển khai thực tế trên các thiết bị giám sát biên (**Edge Deployment**) – nơi có tài nguyên tính toán hạn chế mà các mô hình Transformer hay LSTM nặng nề chưa làm tốt.
 
-# Kết luận
+# 10. Kết luận
 
 Tóm lại, các phương pháp tiếp cận dựa trên AI hiện nay đã đạt được những tiến bộ đáng kể trong bài toán giám sát sức khỏe vòng bi, trải qua quá trình tiến hóa từ các mô hình học máy dựa trên đặc trưng thủ công (**handcrafted features**) sang các kiến trúc học sâu (**Deep Learning**) và mô hình hóa chuỗi tiên tiến. 
 

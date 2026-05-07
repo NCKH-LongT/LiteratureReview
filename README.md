@@ -24,9 +24,9 @@ Dưới đây là danh sách 7 bộ dữ liệu run-to-failure trọng tâm đư
 
 | Tên Dataset | Link Chính Thức / DOI | Đặc điểm nổi bật |
 | :--- | :--- | :--- |
-| **Paderborn University** | [10.5281/zenodo.10805042](https://doi.org/10.5281/zenodo.10805042) | Điều kiện vận hành thay đổi (non-stationary), dữ liệu rung & nhiệt độ. |
+| **Paderborn University** ✅ | [10.5281/zenodo.10805042](https://doi.org/10.5281/zenodo.10805042) | Điều kiện vận hành thay đổi (non-stationary), dữ liệu rung & nhiệt độ. |
 | **NASA IMS** | [NASA Data Portal](https://data.nasa.gov/dataset/ims-bearings) | Bộ dữ liệu nền tảng, run-to-failure dưới tải trọng không đổi. |
-| **FEMTO-ST (PRONOSTIA)** | [IEEE PHM 2012](https://github.com/Lucky-Loek/ieee-phm-2012-data-challenge-dataset) | Dữ liệu từ cuộc thi PHM 2012, kịch bản tải/tốc độ đa dạng. |
+| **FEMTO-ST (PRONOSTIA)** ✅ | [IEEE PHM 2012](https://github.com/Lucky-Loek/ieee-phm-2012-data-challenge-dataset) | Dữ liệu từ cuộc thi PHM 2012, kịch bản tải/tốc độ đa dạng. |
 | **Xi'an Jiaotong (XJTU-SY)** | [XJTU-SY GitHub](https://github.com/WangBiaoXJTU/xjtu-sy-bearing-datasets) | Tần số lấy mẫu cao (25.6 kHz), 15 vòng bi chạy đến khi hỏng. |
 | **KAIST Bearing** | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S235234092400372X) | Đa cảm biến: Dòng điện, Rung động, Mô-men xoắn. |
 | **UNSW Bearing** | [Mendeley Data](https://data.mendeley.com/datasets/h4df4mgrfb/3) | Tập trung vào lỗi nhân tạo và phân tích phổ trong môi trường nhiễu. |
@@ -43,9 +43,9 @@ Tất cả 7 bộ dữ liệu được chọn đều là **Public benchmark data
 
 | Tên Dataset | Loại Nguồn | Môi trường thu thập | Hình thức dữ liệu |
 | :--- | :--- | :--- | :--- |
-| **Paderborn University** | Public | Laboratory (Time-varying) | Multimodal (Vibration, Temp) |
+| **Paderborn University** ✅ | Public | Laboratory (Time-varying) | Multimodal (Vibration, Temp) |
 | **NASA IMS** | Public | Laboratory | Single Modality (Vibration) |
-| **FEMTO-ST (PRONOSTIA)** | Public | Laboratory | Multimodal (Vibration, Temp) |
+| **FEMTO-ST (PRONOSTIA)** ✅ | Public | Laboratory | Multimodal (Vibration, Temp) |
 | **Xi'an Jiaotong (XJTU-SY)** | Public | Laboratory | Single Modality (Vibration) |
 | **KAIST Bearing** | Public | Laboratory | Multimodal (Current, Vib, Torque) |
 | **UNSW Bearing** | Public | Laboratory | Single Modality (Vibration) |
@@ -66,9 +66,9 @@ Phần này tổng hợp các thông số kỹ thuật cốt lõi của 7 bộ d
 
 | Tên Dataset | Loại tín hiệu | Tần số lấy mẫu (Sampling Rate) | Điều kiện vận hành | Đặc điểm mẫu (Sample Size/Labels) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Paderborn University** | Rung động, Nhiệt độ | Đa dạng (Fs variable) | 4 kịch bản (900-1500 RPM, 0.7-1.4 kN) | Run-to-failure trong điều kiện non-stationary. |
+| **Paderborn University** ✅ | Rung động, Nhiệt độ | Đa dạng (Fs variable) | 4 kịch bản (900-1500 RPM, 0.7-1.4 kN) | Run-to-failure trong điều kiện non-stationary. |
 | **NASA IMS** | Rung động | 20 kHz | Cố định (2000 RPM, 6000 lbs) | Snapshots 1s mỗi 10 phút. 3 thí nghiệm chính. |
-| **FEMTO-ST** | Rung động, Nhiệt độ | 25.6 kHz | 3 kịch bản (1800/1650/1500 RPM, 4-5 kN) | 17 bộ run-to-failure (NSK 6203). |
+| **FEMTO-ST** ✅ | Rung động, Nhiệt độ | 25.6 kHz | 3 kịch bản (1800/1650/1500 RPM, 4-5 kN) | 17 bộ run-to-failure (NSK 6203). |
 | **XJTU-SY** | Rung động | 25.6 kHz | 3 kịch bản (2100/2250/2400 RPM, 10-12 kN) | 15 vòng bi (LDK UER204), chất lượng cao. |
 | **KAIST Bearing** | Dòng điện, Rung, Mô-men | 25.6 kHz & 100 kHz | 1770 RPM (0, 2, 4 Nm) hoặc biến thiên | Kết hợp đa cảm biến, mô phỏng nhiều lỗi cơ khí. |
 | **UNSW Bearing** | Rung động | Đa dạng (Fs variable) | 4 tốc độ (360/720/900/1200 RPM) | Lỗi nhân tạo và run-to-failure tự nhiên. |
@@ -157,6 +157,9 @@ Bảng dưới đây tổng hợp cách các nghiên cứu tiêu biểu khai th�
 | P02 | FEMamba | 2025 | IEEE PHM 2012 | Degradation stages | Điều chuẩn toàn cục theo đặc điểm vật lý | Phụ thuộc vào gán nhãn giai đoạn | Kỹ thuật tăng cường đặc trưng |
 | P03 | Mamba TFVisionChaos | 2025 | XJTU-SY, CWRU, JNU | Random segment / Cross-condition | Siêu nhẹ, hỗ trợ đa phương thức | Nguy cơ leakage nếu split không kỹ | Tối ưu triển khai thực tế |
 | P04 | Frequency-Adaptive Framework | 2026 | FEMTO-ST | Independent unit split | Thích ứng đa tần số (TFEN) | Chi phí tính toán của Transformer | Phân tích đa quy mô |
+| P05 | SDMT-Net | 2025 | Paderborn (PU), CWRU | Noise-robust split | Spiral Dual Architecture | Phức tạp trong fusion | Chống nhiễu mạnh |
+| P06 | PG-TMT | 2026 | Paderborn (PU) | Independent unit split | Physics-Guided (Fault bands) | Yêu cầu tri thức vật lý | Cảnh báo sớm sớm |
+| P07 | BMTM-Net | 2025 | Paderborn (PU) | 2D-1D Fusion split | Đa cảm biến (Current + Vib) | Chi phí tính toán cao | Sensor Fusion tối ưu |
 
 ---
 *Ghi chú:* 
